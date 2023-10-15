@@ -1,8 +1,0 @@
-d3_breen_01
-{
-	entity
-	{
-		edit {classname "env_zoom" values {AllPlayers "1"} }
-		edit {classname "point_viewcontrol" values {edt_addspawnflags "128"} }
-	}
-}

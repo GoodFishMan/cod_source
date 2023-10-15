@@ -1,0 +1,20 @@
+"gamemounting.txt"
+{
+	"Counter-Strike Source"
+	{
+		"appid"		"240"
+		"required"	"0"
+		"contenttag"	"cstrike"
+		
+		"paths"
+		{
+			"local"		"cstrike"
+			"local"		"cstrike/cstrike_english.vpk"
+			"local"		"cstrike/cstrike_pak.vpk"
+			
+			"dedicated"	"cstrike"
+			"dedicated"	"cstrike/cstrike_english.vpk"
+			"dedicated"	"cstrike/cstrike_pak.vpk"
+		}
+	}
+}
