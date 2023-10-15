@@ -37,6 +37,8 @@ game_sounds_manifest
 	"precache_file"		"scripts/gamesounds/game_sounds_weapons.txt"
 	"precache_file"		"scripts/gamesounds/game_sounds_weapons_hl2.txt"
 	"precache_file"		"scripts/gamesounds/game_sounds_weapons_ep2.txt"
+	"precache_file"		"scripts/game_sounds_mw2cr.txt"
+	
 
 	// HL2 World, Ambient Generic, Items, Physics, Vehicles
 	"precache_file"		"scripts/gamesounds/game_sounds_world.txt"

@@ -1,0 +1,222 @@
+// COD 4 M4A1
+
+"iw3.m4a1.fire"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_GUNFIRE"
+
+	"wave"			"weapons/iw3/m4a1/fire.wav"
+	
+}
+
+"iw3.m4a1.lift"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/m4a1/lift.wav"
+	
+}
+"iw3.m4a1.out"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/m4a1/out.wav"
+	
+}
+"iw3.m4a1.in"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/m4a1/in.wav"
+	
+}
+"iw3.m4a1.chamber"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/m4a1/chamber.wav"
+}
+"iw3.m4a1.hit"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/m4a1/hit.wav"
+}
+
+// COD 4 AK47
+
+"iw3.ak47.fire"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_GUNFIRE"
+
+	"wave"			"weapons/iw3/ak47/fire.wav"
+	
+}
+
+"iw3.ak47.lift"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/ak47/lift.wav"
+	
+}
+"iw3.ak47.out"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/ak47/out.wav"
+	
+}
+"iw3.ak47.in"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/ak47/in.wav"
+	
+}
+"iw3.ak47.chamber"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/ak47/chamber.wav"
+}
+
+// COD 4 G36C
+
+"iw3.g36c.fire"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_GUNFIRE"
+
+	"wave"			"weapons/iw3/g36c/fire.wav"
+	
+}
+
+"iw3.g36c.lift"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/g36c/lift.wav"
+	
+}
+"iw3.g36c.out"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/g36c/out.wav"
+	
+}
+"iw3.g36c.in"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/g36c/in.wav"
+	
+}
+"iw3.g36c.chamber"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/g36c/chamber.wav"
+	
+}
+
+// COD 4 USP
+
+"iw3.usp.fire"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_GUNFIRE"
+
+	"wave"			"weapons/iw3/usp/fire.wav"
+	
+}
+
+"iw3.usp.lift"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/usp/lift.wav"
+	
+}
+"iw3.usp.out"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/usp/out.wav"
+	
+}
+"iw3.usp.in"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/usp/in.wav"
+	
+}
+"iw3.usp.slide"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/usp/slide.wav"
+	
+}
