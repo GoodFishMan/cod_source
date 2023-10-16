@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Mon Oct 09 21:16:57 AM
+// File generated:  Sun Oct 15 23:30:59 AM
 //
 //
 // Cvar	-	Setting
@@ -51,7 +51,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#GameUI_DeveloperConsoleCheck"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"dsp_enhance_stereo"
@@ -71,7 +71,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#TFOption_ammobucket"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"fc_muzzlelight"
@@ -101,7 +101,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"Weapon sway interp"
 		{ SLIDER 0 0.1 }
-		{ "0.01" }
+		{ "0" }
 	}
 
 	"cl_wpn_sway_scale"
@@ -115,7 +115,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"Viewmodel Field of View"
 		{ SLIDER 0 100 }
-		{ "75" }
+		{ "54" }
 	}
 
 	"category2"
@@ -142,7 +142,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_autoreload"
 		"#Tooltip_autoreload"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_fastswitch"
@@ -158,7 +158,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_Hitbeeps"
 		"#Tooltip_Hitbeeps"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"tf_dingaling_volume"
@@ -209,7 +209,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_LastHitbeeps"
 		"#Tooltip_Hitbeeps"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"tf_dingaling_lasthit_volume"
@@ -319,7 +319,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_medigun_autoheal"
 		"#Tooltip_medigun_autoheal"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"category5"
@@ -364,7 +364,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#TF_ScoreBoard_PingAsText"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"tf_scoreboard_alt_class_icons"
@@ -385,7 +385,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_DisableWeatherParticles"
 		"#Tooltip_DisableWeatherParticles"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_disablehtmlmotd"
@@ -393,7 +393,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Valve_DisableHTMLMOTD"
 		"#Tooltip_DisableHTMLMOTD"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"mp_decals"
@@ -446,14 +446,14 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#TFOption_ammobucket"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"lfce_muzzlelight"
 	{
 		"#TFOption_muzzlelight"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"lfce_dof"
