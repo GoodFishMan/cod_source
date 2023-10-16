@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\crash\bomb\suitcase_col"
+	"$bumpmap"	"models\crash\bomb\suitcase_coln"
+}

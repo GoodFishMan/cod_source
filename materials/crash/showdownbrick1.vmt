@@ -1,0 +1,5 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "crash/showdownbrick1"
+	"$surfaceprop" "concrete_block"
+}

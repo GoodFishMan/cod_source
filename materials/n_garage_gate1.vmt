@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "n_garage_gate1"
+	"$bumpmap" "n_garage_gate_nrm"
+	"$surfaceprop" "Wood_Plank"
+}

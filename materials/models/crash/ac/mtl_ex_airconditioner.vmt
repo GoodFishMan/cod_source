@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\crash\ac\ex_airconditioner"
+	"$bumpmap"	"models\crash\ac\ex_airconditionern"
+}

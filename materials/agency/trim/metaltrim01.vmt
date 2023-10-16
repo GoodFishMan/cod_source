@@ -1,0 +1,11 @@
+LightmappedGeneric
+{
+$basetexture "agency\trim\metaltrim01"
+//$bumpmap "agency\trim\trim01_n"
+$envmap env_cubemap
+$envmapsaturation "1"
+$envmapcontrast "1"
+$envmaptint "[.9 0.9 0.93]"
+$surfaceprop metal
+"%keywords" agency
+}

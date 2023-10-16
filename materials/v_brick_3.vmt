@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "v_brick_3"
+	"$bumpmap" "v_brick_3_nrm"
+	"$surfaceprop" "Concrete"
+}

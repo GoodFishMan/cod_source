@@ -1,0 +1,13 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "maps/concrete/concrete011b"
+	"$bumpmap" "maps/concrete/concrete011b_normal"
+	"$surfaceprop" "concrete"
+	"%keywords" "ins2,bump,iraq"
+		
+	$detail detail\ir_generic_01
+	$detailscale 03
+	$detailblendfactor 1
+	$detailblendmode 0
+	
+}

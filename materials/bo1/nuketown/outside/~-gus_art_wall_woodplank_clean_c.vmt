@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "BO1/Nuketown/Outside/~-gus_art_wall_woodplank_clean_c"
+	"$surfaceprop" "wood_plank"
+                "$bumpmap"		"BO1/Nuketown/Outside/us_art_wall_woodplank_clean_n"          
+}

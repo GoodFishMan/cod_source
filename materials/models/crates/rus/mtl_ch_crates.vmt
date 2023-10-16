@@ -1,0 +1,10 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/crates/rus/ch_crates_col"
+$bumpmap "models/crates/rus/ch_crates_coln"
+
+
+
+
+}

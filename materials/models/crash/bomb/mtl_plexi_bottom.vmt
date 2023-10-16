@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\crash\bomb\suitcase_plexi"
+	"$bumpmap"	"models\crash\bomb\suitcase_plexin"
+	"$translucent" "1"
+}

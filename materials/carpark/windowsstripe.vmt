@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"carpark/windowstripe"
+	"$bumpmap"	"carpark/windowstripen"
+	"$envmap"	"env_cubemap"
+	"$surfaceprop"	"glass"
+}

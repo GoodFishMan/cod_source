@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+"$translucent" "1" // dont change anything here
+"$basetexture" "overviews/de_wetwork_a2" // delete (your mapname) and typ your map name here
+"$vertexalpha" "1" // dont change anything here
+"$no_fullbright" "1" // dont change anything here
+"$ignorez" "1" // dont change anything here
+}

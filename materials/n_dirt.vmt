@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "n_dirt"
+	"$bumpmap" "n_dirt_nrm"
+	"$surfaceprop" "Dirt"
+}

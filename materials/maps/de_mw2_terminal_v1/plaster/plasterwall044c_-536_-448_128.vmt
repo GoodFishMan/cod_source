@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/PLASTER/PLASTERWALL044C.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/de_mw2_terminal_v1/c-536_-448_128"
+	}
+}

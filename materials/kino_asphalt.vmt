@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "kino_asphalt"
+	"$bumpmap" "kino_asphalt_nrm"
+	"$surfaceprop" "Concrete"
+}

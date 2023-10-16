@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CONCRETE/MILFLR001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/de_mw2_terminal_v1/c-413_544_192"
+	}
+}

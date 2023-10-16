@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "mg_mymap/mw2_shade"
+	"$surfaceprop" "metal"
+	"$detail" "detail/dt_metal2"
+	"$translucent" 1
+}

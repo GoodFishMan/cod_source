@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "BO1/Nuketown/Manne/~-gc_usa_pentagon_female_upper_3_c"
+	"$surfaceprop" "Plastic"
+                "$bumpmap"		"BO1/Nuketown/Manne/c_usa_pentagon_female_upper_n"
+
+                $nocull 1
+
+                $phong 1
+                $phongboost "1.75"
+                $phongexponenttexture	"BO1/Nuketown/Manne/~$black-r&$white-r&$black-r&~~2d5924e2"
+                $phongexponent "45"
+                $phongtint "[1 .85 .85]"
+                $phongfresnelranges "[.05 .05 10]"
+
+                $ambientocclusion 1
+}

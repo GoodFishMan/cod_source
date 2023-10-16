@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/LIQUIDS/WATER_PRETTY1.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/de_mw2_terminal_v1/c864_-457_64"
+		"Proxies"
+		{
+		}
+	}
+}
