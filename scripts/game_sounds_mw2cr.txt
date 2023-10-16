@@ -167,6 +167,172 @@
 	
 }
 
+// COD 4 M249
+
+"iw3.m249.fire"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_GUNFIRE"
+
+	"wave"			"weapons/iw3/m249/fire.wav"
+	
+}
+
+"iw3.m249.chamber"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/m249/chamber.wav"
+	
+}
+"iw3.m249.open"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/m249/open.wav"
+	
+}
+"iw3.m249.out"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/m249/out.wav"
+	
+}
+"iw3.m249.in"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/m249/in.wav"
+	
+}
+"iw3.m249.close"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/m249/close.wav"
+	
+}
+
+// COD 4 MP5
+
+"iw3.mp5.fire"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_GUNFIRE"
+
+	"wave"			"weapons/iw3/mp5/fire.wav"
+	
+}
+
+"iw3.mp5.chamber"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/mp5/chamber.wav"
+	
+}
+
+"iw3.mp5.out"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/mp5/out.wav"
+	
+}
+"iw3.mp5.in"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/mp5/in.wav"
+	
+}
+
+// COD 4 Miniuzi
+
+"iw3.miniuzi.fire"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_GUNFIRE"
+
+	"wave"			"weapons/iw3/miniuzi/fire.wav"
+	
+}
+
+"iw3.miniuzi.lift"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/miniuzi/lift.wav"
+	
+}
+
+"iw3.miniuzi.chamber"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/miniuzi/chamber.wav"
+	
+}
+
+"iw3.miniuzi.out"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/miniuzi/out.wav"
+	
+}
+"iw3.miniuzi.in"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/miniuzi/in.wav"
+	
+}
+
+
 // COD 4 USP
 
 "iw3.usp.fire"
