@@ -21283,12 +21283,12 @@
 			}
 			"visuals"
 			{
-				"sound_single_shot"		"iw3.m249.fire"
-				"sound_double_shot"		"iw3.m249.fire"
-				"sound_burst"			"iw3.m249.fire"
+				"sound_single_shot"		"iw3.m60e4.fire"
+				"sound_double_shot"		"iw3.m60e4.fire"
+				"sound_burst"			"iw3.m60e4.fire"
 				"sound_empty"			"HL2_Weapon_Shotgun.Empty"
 				"sound_reload"			"Weapon_AR2.Reload"
-				"sound_special1"		"iw3.m249.fire"
+				"sound_special1"		"iw3.m60e4.fire"
 
 				"animation_replacement"
 				{
