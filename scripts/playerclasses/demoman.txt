@@ -5,42 +5,41 @@ PlayerClass
 {
 	// Attributes.
 	"name"			"demoman"
-	"model"			"models/player/demo.mdl"
-	"model_hwm"		"models/player/hwm/demo.mdl"
-	"model_bot"		"models/bots/demo/bot_demo.mdl"
-	"model_hands"		"models/weapons/c_models/c_demo_arms.mdl"
-	"localize_name"		"TF_Class_Name_Demoman"
-	"speed_max"		"280"
-	"health_max"		"175"
+	"model"			"models/player/john/john_freeman.mdl"
+	"model_hwm"		"models/player/john/john_freeman.mdl"
+	"model_hands"		"models/weapons/viewhands_sas_woodland.mdl"
+	"localize_name"		"John Freeman"
+	"speed_max"		"240"
+	"health_max"		"100"
 	"armor_max"		"0"
 
 	// Grenades.
 	"grenade1"		"TF_WEAPON_GRENADE_NORMAL"
-	"grenade2"		"TF_WEAPON_GRENADE_MIRV"
+	"grenade2"		"TF_WEAPON_GRENADE_NAPALM"
 
 	// Weapons.
-	"weapon1"		"TF_WEAPON_BOTTLE"
-	"weapon2"		"TF_WEAPON_GRENADELAUNCHER"
-	"weapon3"		"TF_WEAPON_PIPEBOMBLAUNCHER"
+	"weapon1"		""
+	"weapon2"		""
+	"weapon3"		""
 
 	//Thirdperson
 	"cameraoffset_forward"	"85"
-	"cameraoffset_right"	"25"
-	"cameraoffset_up"	"0"
-
-
+	"cameraoffset_right"	"0"
+	"cameraoffset_up"	"30"
+	
 	AmmoMax
 	{
-		"tf_ammo_primary"	"16"
-		"tf_ammo_secondary"	"24"
+		"tf_ammo_primary"	"100"
+		"tf_ammo_secondary"	"100"
 		"tf_ammo_metal"		"200"
 		"tf_ammo_grenades1"	"2"
 		"tf_ammo_grenades2"	"2"
-	}
+		"Buckshot"		"48"
+	}	
 
 	// Death Sounds
-	"sound_death"				"Demoman.Death"
-	"sound_crit_death"				"Demoman.CritDeath"
-	"sound_melee_death"			"Demoman.MeleeDeath"
-	"sound_explosion_death"			"Demoman.ExplosionDeath"		
+	"sound_death"				"John.Death"
+	"sound_crit_death"			"John.Death"
+	"sound_melee_death"			"John.Death"
+	"sound_explosion_death"		"John.Death"
 }
