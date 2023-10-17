@@ -20527,11 +20527,6 @@
 				"attribute_class"	"mult_maxammo_primary"
 				"value"	"1.8"
 				}
-				"provide on active"
-				{
-					"attribute_class"	"provide_on_active"
-					"value"				"1"
- 				}
 				"fire rate bonus HIDDEN"
 				{
 					"attribute_class"	"mult_postfiredelay"
@@ -20653,11 +20648,6 @@
 				"attribute_class"	"mult_maxammo_primary"
 				"value"	"1.8"
 				}
-				"provide on active"
-				{
-					"attribute_class"	"provide_on_active"
-					"value"				"1"
- 				}
 				"fire rate bonus HIDDEN"
 				{
 					"attribute_class"	"mult_postfiredelay"
@@ -20770,11 +20760,6 @@
 				"attribute_class"	"mult_maxammo_primary"
 				"value"	"1.2"
 				}
-				"provide on active"
-				{
-					"attribute_class"	"provide_on_active"
-					"value"				"1"
- 				}
 				"fire rate bonus HIDDEN"
 				{
 					"attribute_class"	"mult_postfiredelay"
@@ -20896,11 +20881,6 @@
 				"attribute_class"	"mult_maxammo_primary"
 				"value"	"1.2"
 				}
-				"provide on active"
-				{
-					"attribute_class"	"provide_on_active"
-					"value"				"1"
- 				}
 				"fire rate bonus HIDDEN"
 				{
 					"attribute_class"	"mult_postfiredelay"
@@ -21016,11 +20996,6 @@
 				"attribute_class"	"mult_maxammo_primary"
 				"value"	"1.28"
 				}
-				"provide on active"
-				{
-					"attribute_class"	"provide_on_active"
-					"value"				"1"
- 				}
 				"fire rate bonus HIDDEN"
 				{
 					"attribute_class"	"mult_postfiredelay"
@@ -21069,6 +21044,251 @@
 				"sound_empty"			"HL2_Weapon_Shotgun.Empty"
 				"sound_reload"			"Weapon_AR2.Reload"
 				"sound_special1"		"iw3.miniuzi.fire"
+
+				"animation_replacement"
+				{
+				    "ACT_MP_STAND_PRIMARY"	"ACT_HL2MP_IDLE_AR2"
+					"ACT_MP_CROUCH_PRIMARY"	"ACT_HL2MP_IDLE_CROUCH_AR2"
+					"ACT_MP_RUN_PRIMARY"	"ACT_HL2MP_RUN_AR2"
+					"ACT_MP_AIRWALK_PRIMARY"	"ACT_HL2MP_JUMP_AR2"
+					"ACT_MP_CROUCHWALK_PRIMARY"	"ACT_HL2MP_WALK_CROUCH_AR2"
+					"ACT_MP_JUMP_PRIMARY"	"ACT_HL2MP_JUMP_AR2"
+					"ACT_MP_JUMP_START_PRIMARY"	"ACT_HL2MP_JUMP_AR2"
+					"ACT_MP_JUMP_FLOAT_PRIMARY"	"ACT_HL2MP_JUMP_AR2"
+					"ACT_MP_AIRWALK_PRIMARY"	"ACT_HL2MP_AIRWALK_AR2"
+					"ACT_MP_SWIM_PRIMARY"	"ACT_HL2MP_SWIM_AR2"
+					"ACT_MP_ATTACK_STAND_PRIMARY"	"ACT_HL2MP_ATTACK_AR2"
+					"ACT_MP_ATTACK_CROUCH_PRIMARY"	"ACT_HL2MP_ATTACK_AR2"
+					"ACT_MP_ATTACK_SWIM_PRIMARY"	"ACT_HL2MP_ATTACK_AR2"
+					"ACT_MP_ATTACK_AIRWALK_PRIMARY"	"ACT_HL2MP_ATTACK_AR2"
+					"ACT_MP_RELOAD_STAND_PRIMARY"	"ACT_HL2MP_RELOAD_AR2"
+					"ACT_MP_RELOAD_CROUCH_PRIMARY"	"ACT_HL2MP_RELOAD_AR2"
+					"ACT_MP_RELOAD_SWIM_PRIMARY"	"ACT_HL2MP_RELOAD_AR2"
+					"ACT_MP_RELOAD_AIRWALK_PRIMARY"	"ACT_HL2MP_RELOAD_AR2"
+				}
+			}
+		}	
+		"9409"  
+		{
+			"name"	"M249" 
+			"item_class"	"tf_weapon_smg_primary" // RPM 600
+			"baseitem" "0"
+			"tags"
+			{
+				"can_headshot"				"1"
+				"can_deal_damage"			"1"
+				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+			}
+			"item_type_name"	"Submachine gun"
+			"item_name"	"M249 SAW"
+			"item_slot"	"primary"
+			"show_in_armory"	"1"
+			"image_inventory"	"vgui/hud/iw3_g36c"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/weapons/w_iw3_m249.mdl"
+			"model_player"	"models/weapons/c_iw3_m249.mdl"
+			"attach_to_hands" "2"
+			"item_logname"	"AR2"
+			"item_iconname"	"AR2"
+			"inspect_panel_dist" "40"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"used_by_classes"
+			{
+				"john"				"1"
+			}
+			"particle_suffix"		"ar2"
+			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
+			"drop_sound"		"ui/item_heavy_gun_drop.wav"
+			"attributes"
+			{
+				"maxammo primary increased"
+				{
+				"attribute_class"	"mult_maxammo_primary"
+				"value"	"2.0"
+				}
+				"fire rate bonus HIDDEN"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"	"0.44"
+				}
+				"clip size penalty HIDDEN"
+				{
+					"attribute_class"	"mult_clipsize"
+					"value" "4.0"
+				}
+				"damage bonus HIDDEN"
+				{
+					"attribute_class" 	"mult_dmg"
+					"value" "1.7"
+				}
+				"weapon spread bonus HIDDEN"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value" "1.15"
+				}
+				"mult_spread_scales_consecutive"
+				{
+					"attribute_class"	"mult_spread_scales_consecutive"
+					"value"				"0.5"
+				}
+				"crits_become_minicrits"
+				{
+					"attribute_class"	"crits_become_minicrits"
+					"value"				"1"
+				}
+				"revolver use hit locations"
+				{
+					"attribute_class"	"set_weapon_mode"
+					"value"	"1"
+				}
+                "move speed penalty"
+				{
+					"attribute_class"	"mult_player_movespeed"
+					"value"	"0.80"
+				}
+				"mod_recoil_angle"
+				{
+					"attribute_class"	"mod_recoil_angle"
+					"value" "0.5"
+				}
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"		"10 0 -9"
+			}
+			"visuals"
+			{
+				"sound_single_shot"		"iw3.m249.fire"
+				"sound_double_shot"		"iw3.m249.fire"
+				"sound_burst"			"iw3.m249.fire"
+				"sound_empty"			"HL2_Weapon_Shotgun.Empty"
+				"sound_reload"			"Weapon_AR2.Reload"
+				"sound_special1"		"iw3.m249.fire"
+
+				"animation_replacement"
+				{
+				    "ACT_MP_STAND_PRIMARY"	"ACT_HL2MP_IDLE_AR2"
+					"ACT_MP_CROUCH_PRIMARY"	"ACT_HL2MP_IDLE_CROUCH_AR2"
+					"ACT_MP_RUN_PRIMARY"	"ACT_HL2MP_RUN_AR2"
+					"ACT_MP_AIRWALK_PRIMARY"	"ACT_HL2MP_JUMP_AR2"
+					"ACT_MP_CROUCHWALK_PRIMARY"	"ACT_HL2MP_WALK_CROUCH_AR2"
+					"ACT_MP_JUMP_PRIMARY"	"ACT_HL2MP_JUMP_AR2"
+					"ACT_MP_JUMP_START_PRIMARY"	"ACT_HL2MP_JUMP_AR2"
+					"ACT_MP_JUMP_FLOAT_PRIMARY"	"ACT_HL2MP_JUMP_AR2"
+					"ACT_MP_AIRWALK_PRIMARY"	"ACT_HL2MP_AIRWALK_AR2"
+					"ACT_MP_SWIM_PRIMARY"	"ACT_HL2MP_SWIM_AR2"
+					"ACT_MP_ATTACK_STAND_PRIMARY"	"ACT_HL2MP_ATTACK_AR2"
+					"ACT_MP_ATTACK_CROUCH_PRIMARY"	"ACT_HL2MP_ATTACK_AR2"
+					"ACT_MP_ATTACK_SWIM_PRIMARY"	"ACT_HL2MP_ATTACK_AR2"
+					"ACT_MP_ATTACK_AIRWALK_PRIMARY"	"ACT_HL2MP_ATTACK_AR2"
+					"ACT_MP_RELOAD_STAND_PRIMARY"	"ACT_HL2MP_RELOAD_AR2"
+					"ACT_MP_RELOAD_CROUCH_PRIMARY"	"ACT_HL2MP_RELOAD_AR2"
+					"ACT_MP_RELOAD_SWIM_PRIMARY"	"ACT_HL2MP_RELOAD_AR2"
+					"ACT_MP_RELOAD_AIRWALK_PRIMARY"	"ACT_HL2MP_RELOAD_AR2"
+				}
+			}
+		}	
+		"9410"  
+		{
+			"name"	"M60E4" 
+			"item_class"	"tf_weapon_smg_primary" // RPM 600
+			"baseitem" "0"
+			"tags"
+			{
+				"can_headshot"				"1"
+				"can_deal_damage"			"1"
+				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+			}
+			"item_type_name"	"Submachine gun"
+			"item_name"	"M60E4"
+			"item_slot"	"primary"
+			"show_in_armory"	"1"
+			"image_inventory"	"vgui/hud/iw3_g36c"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/weapons/w_iw3_m60e4.mdl"
+			"model_player"	"models/weapons/c_iw3_m60e4.mdl"
+			"attach_to_hands" "2"
+			"item_logname"	"AR2"
+			"item_iconname"	"AR2"
+			"inspect_panel_dist" "40"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"used_by_classes"
+			{
+				"john"				"1"
+			}
+			"particle_suffix"		"ar2"
+			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
+			"drop_sound"		"ui/item_heavy_gun_drop.wav"
+			"attributes"
+			{
+				"maxammo primary increased"
+				{
+				"attribute_class"	"mult_maxammo_primary"
+				"value"	"2.0"
+				}
+				"clip size penalty HIDDEN"
+				{
+					"attribute_class"	"mult_clipsize"
+					"value" "4.0"
+				}
+				"damage bonus HIDDEN"
+				{
+					"attribute_class" 	"mult_dmg"
+					"value" "1.7"
+				}
+				"weapon spread bonus HIDDEN"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value" "1.0"
+				}
+				"mult_spread_scales_consecutive"
+				{
+					"attribute_class"	"mult_spread_scales_consecutive"
+					"value"				"0.5"
+				}
+				"crits_become_minicrits"
+				{
+					"attribute_class"	"crits_become_minicrits"
+					"value"				"1"
+				}
+				"revolver use hit locations"
+				{
+					"attribute_class"	"set_weapon_mode"
+					"value"	"1"
+				}
+                "move speed penalty"
+				{
+					"attribute_class"	"mult_player_movespeed"
+					"value"	"0.80"
+				}
+				"mod_recoil_angle"
+				{
+					"attribute_class"	"mod_recoil_angle"
+					"value" "2"
+				}
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"		"10 0 -9"
+			}
+			"visuals"
+			{
+				"sound_single_shot"		"iw3.m249.fire"
+				"sound_double_shot"		"iw3.m249.fire"
+				"sound_burst"			"iw3.m249.fire"
+				"sound_empty"			"HL2_Weapon_Shotgun.Empty"
+				"sound_reload"			"Weapon_AR2.Reload"
+				"sound_special1"		"iw3.m249.fire"
 
 				"animation_replacement"
 				{
