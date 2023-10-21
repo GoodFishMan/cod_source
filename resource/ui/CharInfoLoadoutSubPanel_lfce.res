@@ -86,6 +86,39 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
+	
+	"soldier"
+	{
+		"ControlName"			"CTFButton"
+		"fieldName"				"soldier"
+		"xpos"					"35"
+		"ypos"					"230"
+		"zpos"					"11"
+		"wide"					"254"
+		"tall"					"25"
+		"visible"				"1"
+		"enabled"				"1"
+		"bordervisible"			"1"	
+		"command"				"loadout soldier"
+
+		"labelText" 		"#MMenu_Loadout"
+		"xshift" 			"0"
+		"yshift" 			"-2"
+		"textAlignment"		"west"
+		"font"				"HudFontSmallBold"
+		"border_default"	"AdvRoundedButtonDefault"
+		"border_armed"		"AdvRoundedButtonArmed"
+		"border_depressed"	"AdvRoundedButtonDepressed"
+		"paintbackground"   "0"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"SubImage"
+		{
+			"image" 			"glyph_items"
+			"imagewidth"		"16"	
+		}
+	}
 
 	"pyro"
 	{

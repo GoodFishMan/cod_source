@@ -305,6 +305,79 @@
 	
 }
 
+// COD 4 RPD
+
+"iw3.rpd.fire"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_GUNFIRE"
+
+	"wave"			"^weapons/iw3/rpd/fire.wav"
+	
+}
+
+"iw3.rpd.chamber"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/rpd/chamber.wav"
+	
+}
+"iw3.rpd.open"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/rpd/open.wav"
+	
+}
+"iw3.rpd.out"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/rpd/out.wav"
+	
+}
+"iw3.rpd.in"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/rpd/in.wav"
+	
+}
+"iw3.rpd.close"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/rpd/close.wav"
+	
+}
+"iw3.rpd.hit"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/rpd/hit.wav"
+	
+}
 // COD 4 MP5
 
 "iw3.mp5.fire"
@@ -458,5 +531,51 @@
 	"soundlevel" "SNDLVL_NORM"
 
 	"wave"			"weapons/iw3/usp/slide.wav"
+	
+}
+
+// COD 4 W1200
+
+"iw3.w1200.fire"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_GUNFIRE"
+
+	"wave"			"^weapons/iw3/w1200/fire.wav"
+	
+}
+
+"iw3.w1200.lift"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/w1200/lift.wav"
+	
+}
+
+"iw3.w1200.insert"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/w1200/insert.wav"
+	
+}
+
+"iw3.w1200.pump"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/iw3/w1200/pump.wav"
 	
 }
