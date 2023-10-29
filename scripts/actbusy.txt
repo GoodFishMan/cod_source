@@ -467,6 +467,32 @@
 		"interrupts"	"BA_INT_NONE"
 	}
 
+	"Sur_WallCover_R"
+	{
+		"busy_sequence"		"Cover_R"
+		"exit_sequence"		"Cover_RToShootSMG1"
+		"min_time"		"0.0"
+		"max_time"		"0.0"
+		"interrupts"		"BA_INT_SIEGE_DEFENSE"
+	}
+	
+	"Sur_WallCover_L"
+	{
+		"busy_sequence"		"Cover_L"
+		"exit_sequence"		"Cover_LToShootSMG1"
+		"min_time"		"0.0"
+		"max_time"		"0.0"
+		"interrupts"		"BA_INT_SIEGE_DEFENSE"
+	}
+	
+	"Sur_Cover"
+	{
+		"busy_sequence"		"Crouch_idleD"
+		"exit_sequence"		"CrouchDToStand"
+		"min_time"		"0.0"
+		"max_time"		"0.0"
+		"interrupts"		"BA_INT_SIEGE_DEFENSE"
+	}
 //*****************************************************************************
 //************  Soldier actbusy section   *************************************
 //*****************************************************************************

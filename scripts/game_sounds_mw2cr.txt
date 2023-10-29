@@ -579,3 +579,73 @@
 	"wave"			"weapons/iw3/w1200/pump.wav"
 	
 }
+
+// BO1 RAYGUN
+
+"ArcCW_BO1.RayGun_Fire"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_GUNFIRE"
+
+	"wave"			"^weapons/bo1_raygun/fire.wav"
+}
+
+"ArcCW_BO1.RayGun_In"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/bo1_raygun/in.wav"
+	
+}
+"ArcCW_BO1.RayGun_Out"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/bo1_raygun/out.wav"
+	
+}
+"ArcCW_BO1.RayGun_Open"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/bo1_raygun/open.wav"
+	
+}
+"ArcCW_BO1.RayGun_Close"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/bo1_raygun/close.wav"
+}
+"ArcCW_BO1.RayGun_Obtain"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_NORM"
+
+	"wave"			"weapons/bo1_raygun/obtain.wav"
+}
+"ArcCW_BO1.RayGun_Splash"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel" "SNDLVL_GUNFIRE"
+
+	"wave"			"^weapons/bo1_raygun/splash.wav"
+}
