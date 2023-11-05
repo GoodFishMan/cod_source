@@ -96,8 +96,6 @@ particles_manifest
 	"file"		"!particles/sniper_tracer.pcf"	
 	"file"		"!particles/spy_gasgrenade.pcf"	
 
-	"file"		"!particles/raygun.pcf"
-
 	"file"		"!particles/physcannon.pcf"
 
 // TODO fix or implement this effect correctly

@@ -99,3 +99,4 @@ cfg/server_blacklist.txt
 *.scr
 *.scr
 cfg/settings.scr
+*.vmf

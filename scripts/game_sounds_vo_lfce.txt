@@ -8,1693 +8,929 @@
 //	CHAN_STATIC		= 6,		// allocate channel from the static area 
 // these can be set with "channel" "2" or "channel" "chan_voice"
 
-// ------------------------------------------------------------------------------------ //
-// REPRESSOR SOUNDS
-// ------------------------------------------------------------------------------------ //
-
 // VO
 
-"Repressor.BattleCry01"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_battlecry_01.wav"
-}
-"Repressor.BattleCry02"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_battlecry_02.wav"
-}
-"Repressor.BattleCry03"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_battlecry_03.wav"
-}
-"Repressor.Medic01"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_medic_01.wav"
-}
-"Repressor.Medic02"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_medic_02.wav"
-}
-"Repressor.Medic03"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_medic_03.wav"
-}
-"Repressor.Domination01"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_killem_01.wav"
-}
-"Repressor.Domination02"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_killem_02.wav"
-}
-"Repressor.Domination03"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_killem_03.wav"
-}
-"Repressor.Domination04"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_killem_04.wav"
-}
-"Repressor.Domination05"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_killem_05.wav"
-}
-"Repressor.Domination06"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_killem_06.wav"
-}
-"Repressor.Domination07"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_killem_07.wav"
-}
-"Repressor.Domination08"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_killem_08.wav"
-}
-"Repressor.Go01"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_go_01.wav"
-}
-"Repressor.Go02"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_go_02.wav"
-}
-"Repressor.HelpMe01"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_help_01.wav"
-}
-"Repressor.HelpMe02"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_help_02.wav"
-}
-"Repressor.HelpMe03"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_help_03.wav"
-}
-"Repressor.HelpMe04"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_help_04.wav"
-}
-"Repressor.Incoming01"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_incoming_01.wav"
-}
-"Repressor.Incoming02"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_incoming_02.wav"
-}
-"Repressor.Incoming03"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_incoming_03.wav"
-}
-"Repressor.Incoming04"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_incoming_04.wav"
-}
-"Repressor.Incoming05"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_incoming_05.wav"
-}
-"Repressor.Incoming06"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_incoming_06.wav"
-}
-"Repressor.Incoming07"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_incoming_07.wav"
-}
-"Repressor.Incoming08"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_incoming_08.wav"
-}
-"Repressor.Incoming09"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_incoming_09.wav"
-}
-"Repressor.Yes01"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_yes_01.wav"
-}
-"Repressor.Yes02"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_yes_02.wav"
-}
-"Repressor.Yes03"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_yes_03.wav"
-}
-"Repressor.Yes04"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_yes_04.wav"
-}
-"Repressor.Yes05"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_yes_05.wav"
-}
-"Repressor.Positive01"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_positive_01.wav"
-}
-"Repressor.Positive02"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_positive_02.wav"
-}
-"Repressor.Positive03"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_positive_03.wav"
-}
-"Repressor.Positive04"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_positive_04.wav"
-}
-"Repressor.No01"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_no_01.wav"
-}
-"Repressor.No02"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_no_02.wav"
-}
-"Repressor.No03"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_no_03.wav"
-}
-"Repressor.No04"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_no_04.wav"
-}
-"Repressor.No05"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_no_05.wav"
-}
-"Repressor.Pain01"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_pain_01.wav"
-}
-"Repressor.Pain02"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_pain_02.wav"
-}
-"Repressor.Pain03"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_pain_03.wav"
-}
-"Repressor.Pain04"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_pain_04.wav"
-}
-"Repressor.Pain05"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_pain_05.wav"
-}
-"Repressor.Pain06"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_pain_06.wav"
-}
-"Repressor.OnFire01"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_onfire_01.wav"
-}
-"Repressor.OnFire02"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_onfire_02.wav"
-}
-"Repressor.OnFire03"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_onfire_03.wav"
-}
-"Repressor.OnFire04"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_onfire_04.wav"
-}
-"Repressor.OnFire05"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_onfire_05.wav"
-}
-"Repressor.OnFire06"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_onfire_06.wav"
-}
-"Repressor.PointWon01"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_winpoint_01.wav"
-}
-"Repressor.PointWon02"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_winpoint_02.wav"
-}
-"Repressor.PointWon03"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_winpoint_03.wav"
-}
-"Repressor.PointWon04"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_winpoint_04.wav"
-}
-"Repressor.PointLost01"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_pointlost_01.wav"
-}
-"Repressor.PointLost02"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_pointlost_02.wav"
-}
-"Repressor.PointLost03"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_pointlost_03.wav"
-}
-"Repressor.PointLost04"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_pointlost_04.wav"
-}
-"Repressor.PointLost05"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_pointlost_05.wav"
-}
-"Repressor.Negative01"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_negative_01.wav"
-}
-"Repressor.Negative02"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_negative_02.wav"
-}
-
-//Death Sounds
-
-"Repressor.Death"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
-	"volume"		"VOL_NORM"
-	"wave"			"player/suppressor/vo/sup_die_01.wav"
-	"wave"			"player/suppressor/vo/sup_die_02.wav"
-	"wave"			"player/suppressor/vo/sup_die_03.wav"
-	"wave"			"player/suppressor/vo/sup_die_04.wav"
-	"wave"			"player/suppressor/vo/sup_die_05.wav"
-	"wave"			"player/suppressor/vo/sup_die_06.wav"
-	"wave"			"player/suppressor/vo/sup_die_07.wav"
-	"wave"			"player/suppressor/vo/sup_die_08.wav"
-	"wave"			"player/suppressor/vo/sup_die_09.wav"
-}
-
 // ------------------------------------------------------------------------------------ //
-// END OF REPRESSOR SOUNDS 
+// Rangers SOUNDS 
 // ------------------------------------------------------------------------------------ //
 
-// ------------------------------------------------------------------------------------ //
-// ENFORCER SOUNDS 
-// ------------------------------------------------------------------------------------ //
-
-"Enforcer.BattleCry01"
+"Rangers.Sniper01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_battlecry1.wav"
+	"wave"	        		"vo/rangers/sniper1.wav"
 }
-"Enforcer.BattleCry02"
+"Rangers.Clear01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_battlecry2.wav"
+	"wave"	                "vo/rangers/clear1.wav"
 }
-"Enforcer.BattleCry03"
+"Rangers.Right01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_battlecry3.wav"
+	"wave"	                "vo/rangers/right1.wav"
 }
-"Enforcer.Medic01"
+"Rangers.Left01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_callmedic1.wav"
+	"wave"	                "vo/rangers/left1.wav"
 }
-"Enforcer.Medic02"
+"Rangers.go01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_callmedic2.wav"
+	"wave"	                "vo/rangers/go1.wav"
 }
-"Enforcer.Domination01"
+"Rangers.go02"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_killem1.wav"
+	"wave"	                "vo/rangers/go2.wav"
 }
-"Enforcer.Domination02"
+"Rangers.go03"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_killem2.wav"
+	"wave"	                "vo/rangers/go3.wav"
 }
-"Enforcer.Domination03"
+"Rangers.go04"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_killem3.wav"
+	"wave"	                "vo/rangers/go4.wav"
 }
-"Enforcer.Pain01"
+"Rangers.Medic01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_pain1.wav"
+	"wave"	                "vo/rangers/hit1.wav"
 }
-"Enforcer.Pain02"
+"Rangers.ManDown01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_pain2.wav"
+	"wave"	                "vo/rangers/down1.wav"
 }
-"Enforcer.Pain03"
+"Rangers.ManDown02"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_pain3.wav"
+	"wave"	                "vo/rangers/down2.wav"
 }
-"Enforcer.Pain04"
+"Rangers.ManDown03"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_pain4.wav"
+	"wave"	                "vo/rangers/down3.wav"
 }
-"Enforcer.OnFire01"
+"Rangers.ManDown04"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_onfire1.wav"
+	"wave"	                "vo/rangers/down4.wav"
 }
-"Enforcer.OnFire02"
+"Rangers.ManDown05"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_onfire2.wav"
+	"wave"	                "vo/rangers/down5.wav"
 }
-"Enforcer.OnFire03"
+"Rangers.ManDown06"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_onfire3.wav"
+	"wave"	                "vo/rangers/down6.wav"
 }
-"Enforcer.Go01"
+"Rangers.Yes01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_go1.wav"
+	"wave"	                "vo/rangers/yes1.wav"
 }
-"Enforcer.Go02"
+"Rangers.Yes02"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_go2.wav"
+	"wave"	                "vo/rangers/yes2.wav"
 }
-"Enforcer.Go03"
+"Rangers.Yes03"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_go3.wav"
+	"wave"	                "vo/rangers/yes3.wav"
 }
-"Enforcer.HelpMe01"
+"Rangers.Yes04"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_callhelp1.wav"
+	"wave"	                "vo/rangers/yes3.wav"
 }
-"Enforcer.HelpMe02"
+"Rangers.Yes04"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_callhelp2.wav"
+	"wave"	                "vo/rangers/yes4.wav"
 }
-"Enforcer.HelpMe03"
+"Rangers.Yes05"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_callhelp3.wav"
+	"wave"	                "vo/rangers/yes5.wav"
 }
-"Enforcer.NeedSentry01"
+"Rangers.Yes06"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_sentryhere1.wav"
+	"wave"	                "vo/rangers/yes6.wav"
 }
-"Enforcer.NeedSentry02"
+"Rangers.Yes07"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_sentryhere2.wav"
+	"wave"	                "vo/rangers/yes7.wav"
 }
-"Enforcer.NeedDispenser01"
+"Rangers.Yes08"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_dispenserhere1.wav"
+	"wave"	                "vo/rangers/yes8.wav"
 }
-"Enforcer.NeedDispenser02"
+"Rangers.Incoming01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_dispenserhere2.wav"
+	"wave"	                "vo/rangers/contact1.wav"
 }
-"Enforcer.NeedTeleporter01"
+"Rangers.Incoming02"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_teleporterhere1.wav"
+	"wave"	                "vo/rangers/contact2.wav"
 }
-"Enforcer.NeedTeleporter02"
+"Rangers.Incoming03"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_teleporterhere2.wav"
+	"wave"	                "vo/rangers/contact3.wav"
 }
-"Enforcer.Incoming01"
+"Rangers.Incoming04"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_incoming1.wav"
+	"wave"	                "vo/rangers/contact4.wav"
 }
-"Enforcer.Incoming02"
+"Rangers.Incoming05"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_incoming2.wav"
+	"wave"	                "vo/rangers/contact5.wav"
 }
-"Enforcer.Incoming03"
+"Rangers.Incoming06"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_incoming3.wav"
+	"wave"	                "vo/rangers/contact6.wav"
 }
-"Enforcer.Jeers01"
+"Rangers.Incoming07"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_jeers1.wav"
+	"wave"	                "vo/rangers/contact7.wav"
 }
-"Enforcer.Jeers02"
+"Rangers.Incoming08"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_jeers2.wav"
+	"wave"	                "vo/rangers/contact8.wav"
 }
-"Enforcer.Jeers03"
+"Rangers.Incoming09"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_jeers3.wav"
+	"wave"	                "vo/rangers/contact9.wav"
 }
-"Enforcer.Sniper01"
+"Rangers.Help01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_snipercallout1.wav"
+	"wave"	                "vo/rangers/takingfire1.wav"
 }
-"Enforcer.Sniper02"
+"Rangers.Help02"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_snipercallout2.wav"
+	"wave"	                "vo/rangers/takingfire2.wav"
 }
-"Enforcer.UberMe01"
+"Rangers.Help03"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/zombine/vo/zombine_uberme1.wav"
+	"wave"	                "vo/rangers/takingfire3.wav"
 }
-"Enforcer.UberMe02"
+"Rangers.Cheers01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/zombine/vo/zombine_uberme2.wav"
+	"wave"	                "player/Rangers/Rangerscheers01.wav"
 }
-"Enforcer.SentryAhead01"
+"Rangers.Cheers02"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/zombine/vo/zombine_sentryahead1.wav"
+	"wave"	                "player/Rangers/Rangerscheers02.wav"
 }
-"Enforcer.SentryAhead02"
+"Rangers.Cheers03"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/zombine/vo/zombine_sentryahead2.wav"
+	"wave"	                "player/Rangers/Rangerscheers03.wav"
 }
-"Enforcer.Yes01"
+"Rangers.Cheers04"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/zombine/vo/zombine_yes1.wav"
+	"wave"	                "player/Rangers/Rangerscheers04.wav"
 }
-"Enforcer.Yes02"
+"Rangers.Cheers05"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/zombine/vo/zombine_yes2.wav"
+	"wave"	                "player/Rangers/Rangerscheers05.wav"
 }
-"Enforcer.Thanks01"
+"Rangers.Cheers06"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/zombine/vo/zombine_thanks1.wav"
+	"wave"	                "player/Rangers/Rangerscheers06.wav"
 }
-"Enforcer.Thanks02"
+"Rangers.Positive01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/zombine/vo/zombine_thanks2.wav"
+	"wave"	                "player/Rangers/Rangerspositive01.wav"
 }
-"Enforcer.Positive01"
+"Rangers.Positive02"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/zombine/vo/zombine_positive1.wav"
+	"wave"	                "player/Rangers/Rangerspositive02.wav"
 }
-"Enforcer.No01"
+"Rangers.Positive03"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/zombine/vo/zombine_no1.wav"
+	"wave"	                "player/Rangers/Rangerspositive03.wav"
 }
-"Enforcer.No02"
+"Rangers.Positive04"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/zombine/vo/zombine_no2.wav"
+	"wave"	                "player/Rangers/Rangerspositive04.wav"
 }
-"Enforcer.No03"
+"Rangers.Positive05"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/zombine/vo/zombine_no3.wav"
+	"wave"	                "player/Rangers/Rangerspositive05.wav"
 }
-"Enforcer.Death"
+"Rangers.Positive06"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_death1.wav"
-	"wave"			"player/zombine/vo/zombine_death3.wav"
+	"wave"	                "player/Rangers/Rangerspositive06.wav"
 }
-"Enforcer.DeathCrit"
+"Rangers.Negative01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"			"player/zombine/vo/zombine_death2.wav"
+	"wave"	                "player/Rangers/Rangersnegative01.wav"
 }
-
-// ------------------------------------------------------------------------------------ //
-// END OF ENFORCER SOUNDS 
-// ------------------------------------------------------------------------------------ //
-
-// ------------------------------------------------------------------------------------ //
-// JOHN SOUNDS 
-// ------------------------------------------------------------------------------------ //
-
-"John.Battlecry01"
+"Rangers.Negative02"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnbattlecry01.wav"
+	"wave"	                "player/Rangers/Rangersnegative02.wav"
 }
-"John.Battlecry02"
+"Rangers.Negative03"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnbattlecry02.wav"
+	"wave"	                "player/Rangers/Rangersnegative03.wav"
 }
-"John.Battlecry03"
+"Rangers.Negative04"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnbattlecry03.wav"
+	"wave"	                "player/Rangers/Rangersnegative04.wav"
 }
-"John.Battlecry04"
+"Rangers.Negative05"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnbattlecry04.wav"
+	"wave"	                "player/Rangers/Rangersnegative05.wav"
 }
-"John.Battlecry05"
+"Rangers.Negative06"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnbattlecry05.wav"
+	"wave"	                "player/Rangers/Rangersnegative06.wav"
 }
-"John.Medic01"
+"Rangers.Negative07"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnmedic01.wav"
+	"wave"	                "player/Rangers/Rangersnegative07.wav"
 }
-"John.Medic02"
+"Rangers.NiceShot01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnmedic02.wav"
+	"wave"	                "vo/rangers/niceshot1.wav"
 }
-"John.Go01"
+"Rangers.Thanks01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johngo01.wav"
+	"wave"	                "player/Rangers/Rangersthanks01.wav"
 }
-"John.Go02"
+"Rangers.Thanks02"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johngo02.wav"
+	"wave"	                "player/Rangers/Rangersthanks02.wav"
 }
-"John.Go03"
+"Rangers.Thanks03"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johngo03.wav"
+	"wave"	                "player/Rangers/Rangersthanks03.wav"
 }
-"John.Go04"
+"Rangers.CapturedPoint01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johngo04.wav"
+	"wave"	                "player/Rangers/Rangerspointcap01.wav"
 }
-"John.Go04"
+"Rangers.CapturedPoint02"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johngo04.wav"
+	"wave"	                "player/Rangers/Rangerspointcap02.wav"
 }
-"John.Yes01"
+"Rangers.CapturedPoint03"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnyes01.wav"
+	"wave"	                "player/Rangers/Rangerspointcap03.wav"
 }
-"John.Yes02"
+"Rangers.CapturedPoint04"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnyes02.wav"
+	"wave"	                "player/Rangers/Rangerspointcap04.wav"
 }
-"John.Yes03"
+"Rangers.LostPoint01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnyes03.wav"
+	"wave"	                "player/Rangers/Rangerslosepoint01.wav"
 }
-"John.Yes04"
+"Rangers.LostPoint02"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnyes04.wav"
+	"wave"	                "player/Rangers/Rangerslosepoint02.wav"
 }
-"John.Incoming01"
+"Rangers.LostPoint03"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnincoming01.wav"
+	"wave"	                "player/Rangers/Rangerslosepoint03.wav"
 }
-"John.Incoming02"
+"Rangers.LostPoint04"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnincoming02.wav"
+	"wave"	                "player/Rangers/Rangerslosepoint04.wav"
 }
-"John.Incoming03"
+"Rangers.Jeers01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnincoming03.wav"
+	"wave"	                "player/Rangers/Rangersjeers01.wav"
 }
-"John.Incoming04"
+"Rangers.Jeers02"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnincoming04.wav"
+	"wave"	                "player/Rangers/Rangersjeers02.wav"
 }
-"John.Incoming05"
+"Rangers.Jeers03"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnincoming05.wav"
+	"wave"	                "player/Rangers/Rangersjeers03.wav"
 }
-"John.Incoming06"
+"Rangers.Jeers04"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnincoming06.wav"
+	"wave"	                "player/Rangers/Rangersjeers04.wav"
 }
-"John.Charge01"
+"Rangers.Jeers05"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johncharge01.wav"
+	"wave"	                "player/Rangers/Rangersjeers05.wav"
 }
-"John.Charge02"
+"Rangers.Jeers06"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johncharge02.wav"
+	"wave"	                "player/Rangers/Rangersjeers06.wav"
 }
-"John.Charge03"
+"Rangers.Jeers07"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johncharge03.wav"
+	"wave"	                "player/Rangers/Rangersjeers07.wav"
 }
-"John.Charge04"
+"Rangers.Domination01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johncharge04.wav"
+	"wave"	                "player/Rangers/Rangersdomination01.wav"
 }
-"John.Help01"
+"Rangers.Domination02"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnhelp01.wav"
+	"wave"	                "player/Rangers/Rangersdomination02.wav"
 }
-"John.Help02"
+"Rangers.Domination03"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnhelp02.wav"
+	"wave"	                "player/Rangers/Rangersdomination03.wav"
 }
-"John.Help03"
+"Rangers.Domination04"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnhelp03.wav"
+	"wave"	                "player/Rangers/Rangersdomination04.wav"
 }
-"John.Help04"
+"Rangers.Domination05"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnhelp04.wav"
+	"wave"	                "player/Rangers/Rangersdomination05.wav"
 }
-"John.Help05"
+"Rangers.Domination06"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnhelp05.wav"
+	"wave"	                "player/Rangers/Rangersdomination06.wav"
 }
-"John.Help06"
+"Rangers.Domination07"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnhelp06.wav"
+	"wave"	                "player/Rangers/Rangersdomination07.wav"
 }
-"John.Cheers01"
+"Rangers.Domination08"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johncheers01.wav"
+	"wave"	                "player/Rangers/Rangersdomination08.wav"
 }
-"John.Cheers02"
+"Rangers.Domination01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johncheers02.wav"
+	"wave"	                "player/Rangers/Rangersdomination01.wav"
 }
-"John.Cheers03"
+"Rangers.Headcrab01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johncheers03.wav"
+	"wave"	                "player/Rangers/Rangersheadcrabs01.wav"
 }
-"John.Cheers04"
+"Rangers.Headcrab02"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johncheers04.wav"
+	"wave"	                "player/Rangers/Rangersheadcrabs02.wav"
 }
-"John.Cheers05"
+"Rangers.Trap01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johncheers05.wav"
+	"wave"	                "player/Rangers/Rangerstrap01.wav"
 }
-"John.Cheers06"
+"Rangers.Trap02"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johncheers06.wav"
+	"wave"	                "player/Rangers/Rangerstrap02.wav"
 }
-"John.Positive01"
+"Rangers.Ammo01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnpositive01.wav"
+	"wave"	                "player/Rangers/Rangersammo01.wav"
 }
-"John.Positive02"
+"Rangers.Ammo02"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnpositive02.wav"
+	"wave"	                "player/Rangers/Rangersammo02.wav"
 }
-"John.Positive03"
+"Rangers.Ammo03"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnpositive03.wav"
+	"wave"	                "player/Rangers/Rangersammo03.wav"
 }
-"John.Positive04"
+"Rangers.Ammo04"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnpositive04.wav"
+	"wave"	                "player/Rangers/Rangersammo04.wav"
 }
-"John.Positive05"
+"Rangers.Ammo05"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnpositive05.wav"
+	"wave"	                "player/Rangers/Rangersammo05.wav"
 }
-"John.Positive06"
+"Rangers.Health01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnpositive06.wav"
+	"wave"	                "player/Rangers/Rangershealth01.wav"
 }
-"John.Negative01"
+"Rangers.Health02"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnnegative01.wav"
+	"wave"	                "player/Rangers/Rangershealth02.wav"
 }
-"John.Negative02"
+"Rangers.Health03"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnnegative02.wav"
+	"wave"	                "player/Rangers/Rangershealth03.wav"
 }
-"John.Negative03"
+"Rangers.Health04"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnnegative03.wav"
+	"wave"	                "player/Rangers/Rangershealth04.wav"
 }
-"John.Negative04"
+"Rangers.Health05"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnnegative04.wav"
+	"wave"	                "player/Rangers/Rangershealth05.wav"
 }
-"John.Negative05"
+"Rangers.No01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnnegative05.wav"
+	"wave"	                "vo/rangers/no1.wav"
 }
-"John.Negative06"
+"Rangers.Contact01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnnegative06.wav"
+	"wave"	                "vo/rangers/contact1.wav"
 }
-"John.Negative07"
+"Rangers.Contact02"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnnegative07.wav"
+	"wave"	                "vo/rangers/contact2.wav"
 }
-"John.NiceShot01"
+"Rangers.Contact03"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnniceshot01.wav"
+	"wave"	                "vo/rangers/contact3.wav"
 }
-"John.Thanks01"
+"Rangers.Contact04"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnthanks01.wav"
+	"wave"	                "vo/rangers/contact4.wav"
 }
-"John.Thanks02"
+"Rangers.Contact05"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnthanks02.wav"
+	"wave"	                "vo/rangers/contact5.wav"
 }
-"John.Thanks03"
+"Rangers.Contact06"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnthanks03.wav"
+	"wave"	                "vo/rangers/contact6.wav"
 }
-"John.CapturedPoint01"
+"Rangers.Contact07"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnpointcap01.wav"
+	"wave"	                "vo/rangers/contact7.wav"
 }
-"John.CapturedPoint02"
+"Rangers.Contact08"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnpointcap02.wav"
+	"wave"	                "vo/rangers/contact8.wav"
 }
-"John.CapturedPoint03"
+"Rangers.Contact09"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnpointcap03.wav"
+	"wave"	                "vo/rangers/contact9.wav"
 }
-"John.CapturedPoint04"
+"Rangers.Combine01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnpointcap04.wav"
+	"wave"	                "player/Rangers/Rangerscombine01.wav"
 }
-"John.LostPoint01"
+"Rangers.Combine02"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnlosepoint01.wav"
+	"wave"	                "player/Rangers/Rangerscombine02.wav"
 }
-"John.LostPoint02"
+"Rangers.Strider01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnlosepoint02.wav"
+	"wave"	                "player/Rangers/Rangersstrider01.wav"
 }
-"John.LostPoint03"
+"Rangers.Zombie01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnlosepoint03.wav"
+	"wave"	                "player/Rangers/Rangerszombies01.wav"
 }
-"John.LostPoint04"
+"Rangers.Zombie02"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnlosepoint04.wav"
+	"wave"	                "player/Rangers/Rangerszombies02.wav"
 }
-"John.Jeers01"
+"Rangers.Kill01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnjeers01.wav"
+	"wave"	                "vo/rangers/kill1.wav"
 }
-"John.Jeers02"
+"Rangers.Kill02"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnjeers02.wav"
+	"wave"	                "vo/rangers/kill2.wav"
 }
-"John.Jeers03"
+"Rangers.Kill03"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnjeers03.wav"
+	"wave"	                "vo/rangers/kill3.wav"
 }
-"John.Jeers04"
+"Rangers.Kill04"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnjeers04.wav"
+	"wave"	                "vo/rangers/kill4.wav"
 }
-"John.Jeers05"
+"Rangers.Kill05"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnjeers05.wav"
+	"wave"	                "vo/rangers/kill5.wav"
 }
-"John.Jeers06"
+"Rangers.Kill06"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnjeers06.wav"
+	"wave"	                "vo/rangers/kill6.wav"
 }
-"John.Jeers07"
+"Rangers.Kill07"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnjeers07.wav"
+	"wave"	                "vo/rangers/kill7.wav"
 }
-"John.Domination01"
+"Rangers.Kill08"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johndomination01.wav"
+	"wave"	                "vo/rangers/kill8.wav"
 }
-"John.Domination02"
+"Rangers.Kill09"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johndomination02.wav"
-}
-"John.Domination03"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johndomination03.wav"
-}
-"John.Domination04"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johndomination04.wav"
-}
-"John.Domination05"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johndomination05.wav"
-}
-"John.Domination06"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johndomination06.wav"
-}
-"John.Domination07"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johndomination07.wav"
-}
-"John.Domination08"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johndomination08.wav"
-}
-"John.Domination01"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johndomination01.wav"
-}
-"John.Headcrab01"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnheadcrabs01.wav"
-}
-"John.Headcrab02"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnheadcrabs02.wav"
-}
-"John.Trap01"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johntrap01.wav"
-}
-"John.Trap02"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johntrap02.wav"
-}
-"John.Ammo01"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnammo01.wav"
-}
-"John.Ammo02"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnammo02.wav"
-}
-"John.Ammo03"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnammo03.wav"
-}
-"John.Ammo04"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnammo04.wav"
-}
-"John.Ammo05"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnammo05.wav"
-}
-"John.Health01"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnhealth01.wav"
-}
-"John.Health02"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnhealth02.wav"
-}
-"John.Health03"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnhealth03.wav"
-}
-"John.Health04"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnhealth04.wav"
-}
-"John.Health05"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnhealth05.wav"
-}
-"John.No01"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnno01.wav"
-}
-"John.No02"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnno02.wav"
-}
-"John.No03"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnno03.wav"
-}
-"John.No04"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnno04.wav"
-}
-"John.No05"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnno05.wav"
-}
-"John.No06"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnno06.wav"
-}
-"John.No07"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnno07.wav"
-}
-"John.No08"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnno08.wav"
-}
-"John.Combine01"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johncombine01.wav"
-}
-"John.Combine02"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johncombine02.wav"
-}
-"John.Strider01"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnstrider01.wav"
-}
-"John.Zombie01"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnzombies01.wav"
-}
-"John.Zombie02"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnzombies02.wav"
+	"wave"	                "vo/rangers/kill9.wav"
 }
 
-// Pain Sounds
 
-"John.SeverePain01"
+"Rangers.GrenadeThrow01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnsevere01.wav"
+	"wave"	                "vo/rangers/frag1.wav"
 }
-"John.SeverePain02"
+"Rangers.GrenadeThrow02"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnsevere02.wav"
+	"wave"	                "vo/rangers/frag2.wav"
 }
-"John.SeverePain03"
+"Rangers.GrenadeThrow03"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnsevere03.wav"
+	"wave"	                "vo/rangers/frag3.wav"
 }
-"John.SeverePain04"
+"Rangers.GrenadeThrow04"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnsevere04.wav"
+	"wave"	                "vo/rangers/frag4.wav"
 }
-"John.SeverePain05"
+"Rangers.GrenadeThrow05"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnsevere05.wav"
+	"wave"	                "vo/rangers/frag5.wav"
 }
-"John.SeverePain06"
+
+"Rangers.Death"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnsevere06.wav"
+	"wave"	        "vo/rangers/death1.wav"
+	"wave"	        "vo/rangers/death2.wav"
+	"wave"	        "vo/rangers/death3.wav"
+	"wave"	        "vo/rangers/death4.wav"
+	"wave"	        "vo/rangers/death5.wav"
+	"wave"	        "vo/rangers/death6.wav"
+	"wave"	        "vo/rangers/death7.wav"
+	"wave"	        "vo/rangers/death8.wav"
 }
-"John.SharpPain01"
+"Rangers.Hurt"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_IDLE"
 	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnsharp01.wav"
+	"wave"	        "vo/rangers/hurt1.wav"
+	"wave"	        "vo/rangers/hurt2.wav"
+	"wave"	        "vo/rangers/hurt3.wav"
+	"wave"	        "vo/rangers/hurt4.wav"
+	"wave"	        "vo/rangers/hurt5.wav"
+	"wave"	        "vo/rangers/hurt6.wav"
+	"wave"	        "vo/rangers/hurt7.wav"
 }
-"John.SharpPain02"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnsharp02.wav"
-}
-"John.SharpPain03"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnsharp03.wav"
-}
-"John.SharpPain04"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnsharp04.wav"
-}
-"John.SharpPain05"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnsharp05.wav"
-}
-"John.SharpPain06"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnsharp06.wav"
-}
-"John.SharpPain07"
-{
-	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"		"VOL_NORM"
-	"wave"	                "player/john/johnsharp07.wav"
-}
+
+
 
 // ------------------------------------------------------------------------------------ //
-// END OF JOHN SOUNDS 
+// END OF Rangers SOUNDS 
 // ------------------------------------------------------------------------------------ //
 
 
@@ -1705,7 +941,7 @@
 "saxton.LaugherBigSnort01"
 {
 	"channel"		"CHAN_VOICE"
-	"soundlevel"	"SNDLVL_94dB"
+	"soundlevel"	"SNDLVL_90dB"
 	"volume"		"VOL_NORM"
 	"wave"	                "mvm/saxton_hale_by_matthew_simmons/laugh_01.mp3"
 }

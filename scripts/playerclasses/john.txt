@@ -38,8 +38,8 @@ PlayerClass
 	}	
 
 	// Death Sounds
-	"sound_death"				"John.Death"
-	"sound_crit_death"			"John.Death"
-	"sound_melee_death"			"John.Death"
-	"sound_explosion_death"		"John.Death"
+	"sound_death"				"Rangers.Death"
+	"sound_crit_death"			"Rangers.Death"
+	"sound_melee_death"			"Rangers.Death"
+	"sound_explosion_death"		"Rangers.Death"
 }

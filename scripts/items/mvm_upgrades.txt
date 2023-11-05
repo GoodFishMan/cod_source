@@ -55,7 +55,7 @@
 			"attribute"	"melee attack rate bonus"	// attrib to hook
 			"icon"		"mvm/upgradeicons/upgrade_attackspeed"
 			"increment"	"-0.1"				// percent
-			"cap"		"0.6"				// percent
+			"cap"		"0.7"				// percent
 			"cost"		"200"				// first tier points/credits cost
 		}
 		"3"
@@ -110,8 +110,8 @@
 		{
 			"attribute"	"heal on kill"
 			"icon"		"achievements/tf_medic_kill_healed_spy"
-			"increment"	"25"				
-			"cap"		"100"				
+			"increment"	"10"				
+			"cap"		"50"				
 			"cost"		"200"
 		}
 		"7"
@@ -317,7 +317,7 @@
 		{
 			"attribute"	"faster reload rate"	// attrib to hook
 			"icon"		"achievements/tf_heavy_survive_crocket"
-			"increment"	"-0.2"				// percent
+			"increment"	"-0.1"				// percent
 			"cap"		"0.4"				// percent
 			"cost"		"250"				// first tier points/credits cost
 		}
@@ -483,40 +483,40 @@
 		{
 			"attribute"	"dmg taken from fire reduced"
 			"icon"		"mvm/upgradeicons/upgrade_resistance_fire"
-			"increment"	"-0.25"			// 15% reduction
-			"cap"		"0.25"			// 75% reduction max (.41 because of float rounding when comparing)
+			"increment"	"-0.10"			// 15% reduction
+			"cap"		"0.50"			// 75% reduction max (.41 because of float rounding when comparing)
 			"cost"		"150"
 		}
 		"2"
 		{
 			"attribute"	"dmg taken from blast reduced"
 			"icon"		"achievements/tf_demoman_kill_x_heavies_fullhp_onedet"
-			"increment"	"-0.25"
-			"cap"		"0.25"
+			"increment"	"-0.10"
+			"cap"		"0.50"
 			"cost"		"300"
 		}
 		"3"
 		{
 			"attribute"	"dmg taken from bullets reduced"
 			"icon"		"mvm/upgradeicons/upgrade_resistance_bullet"
-			"increment"	"-0.25"
-			"cap"		"0.25"
+			"increment"	"-0.05"
+			"cap"		"0.75"
 			"cost"		"300"
 		}
-		"4"
-		{
-			"attribute"	"dmg taken from crit reduced"
-			"icon"		"achievements/tf_soldier_shoot_mult_crits"
-			"increment"	"-0.3"
-			"cap"		"0.1"
-			"cost"		"150"
-		}
+//		"4"
+//		{
+//			"attribute"	"dmg taken from crit reduced"
+//			"icon"		"achievements/tf_soldier_shoot_mult_crits"
+//			"increment"	"-0.3"
+//			"cap"		"0.1"
+//			"cost"		"150"
+//		}
 		"5"
 		{
 			"attribute"	"move speed bonus"
 			"icon"		"achievements/tf_scout_long_distance_runner"
-			"increment"	"0.1"
-			"cap"		"1.3"
+			"increment"	"0.07"
+			"cap"		"1.35"
 			"cost"		"200"
 		}
 		"6"
@@ -540,7 +540,7 @@
 			"attribute"	"increased jump height"
 			"icon"		"achievements/tf_scout_double_jumps"
 			"increment"	"0.2"
-			"cap"		"1.6"
+			"cap"		"1.4"
 			"cost"		"100"
 		}
 	}

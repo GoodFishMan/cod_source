@@ -52,35 +52,25 @@
 		
 		"item_4"
 		{
-			"concept"				"TLK_PLAYER_MOVEUP"		
-			"menu_label"				"#Voice_Menu_MoveUp"
+			"concept"				"TLK_PLAYER_LEFT"		
+			"menu_label"				"#Voice_Menu_Left"
 			"show_subtitle"				"1"
 			"distance_check_subtitle"		"1"
-			"subtitle"				"Move up!"
+			"subtitle"				"Attack Left"
 			"activity"				"ACT_MP_GESTURE_VC_FINGERPOINT"
 		}
 		
 		"item_5"
 		{
-			"concept"				"TLK_PLAYER_LEFT"		
-			"menu_label"				"#Voice_Menu_Left"
-			"show_subtitle"				"1"
-			"distance_check_subtitle"		"1"
-			"subtitle"				"Go Left"
-			"activity"				"ACT_MP_GESTURE_VC_FINGERPOINT"
-		}
-		
-		"item_6"
-		{
 			"concept"				"TLK_PLAYER_RIGHT"		
 			"menu_label"				"#Voice_Menu_Right"
 			"show_subtitle"				"1"
 			"distance_check_subtitle"		"1"
-			"subtitle"				"Go Right"
+			"subtitle"				"Attack Right"
 			"activity"				"ACT_MP_GESTURE_VC_FINGERPOINT"
 		}
 		
-		"item_7"
+		"item_6"
 		{
 			"concept"				"TLK_PLAYER_YES"		
 			"menu_label"				"#Voice_Menu_Yes"
@@ -88,7 +78,7 @@
 			"subtitle"				"Yes"
 		}
 		
-		"item_8"
+		"item_7"
 		{
 			"concept"				"TLK_PLAYER_NO"	
 			"menu_label"				"#Voice_Menu_No"	
@@ -96,11 +86,14 @@
 			"subtitle"				"No"
 		}
 
-		"item_9"
+		"item_8"
 		{
-			"concept"				"TLK_MVM_SNIPER_CALLOUT"
+			"concept"				"TLK_PLAYER_SNIPER_CO"
 			"menu_label"				"#Voice_Menu_Sniper"
-			"activity"				"ACT_MP_GESTURE_VC_THUMBSUP"
+			"show_subtitle"				"1"
+			"distance_check_subtitle"		"1"
+			"subtitle"				"Sniper!"
+			"activity"				"ACT_MP_GESTURE_VC_FINGERPOINT"
 		}
 	}
 
@@ -119,15 +112,6 @@
 		
 		"item_2"
 		{
-			"concept"				"TLK_PLAYER_CLOAKEDSPY"
-			"menu_label"				"#Voice_Menu_CloakedSpy"
-			"show_subtitle"				"1"
-			"distance_check_subtitle"		"1"
-			"subtitle"				"Spy!"
-		}
-		
-		"item_3"
-		{
 			"concept"				"TLK_PLAYER_SENTRYAHEAD"	
 			"menu_label"				"#Voice_Menu_SentryAhead"
 			"show_subtitle"				"1"
@@ -136,50 +120,13 @@
 			"activity"				"ACT_MP_GESTURE_VC_FINGERPOINT"
 		}
 		
-		"item_4"
-		{
-			"concept"				"TLK_PLAYER_TELEPORTERHERE"		
-			"distance_check_subtitle"		"1"
-			"menu_label"				"#Voice_Menu_TeleporterHere"
-		}
-		
-		"item_5"
-		{
-			"concept"				"TLK_PLAYER_DISPENSERHERE"		
-			"distance_check_subtitle"		"1"
-			"menu_label"				"#Voice_Menu_DispenserHere"
-		}
-		
-		"item_6"
+		"item_3"
 		{
 			"concept"				"TLK_PLAYER_SENTRYHERE"		
 			"distance_check_subtitle"		"1"
 			"menu_label"				"#Voice_Menu_SentryHere"
 		}
-		
-		"item_7"
-		{
-			"concept"				"TLK_PLAYER_ACTIVATECHARGE"		
-			"menu_label"				"#Voice_Menu_ActivateCharge"
-			"show_subtitle"				"1"
-			"distance_check_subtitle"		"1"
-			"subtitle"				"Activate Charge!"
-		}
-		
-		"item_8"
-		{
-			"concept"				"TLK_PLAYER_CHARGEREADY"	
-			"distance_check_subtitle"		"1"
-			"menu_label"				"#Voice_Menu_ChargeReady"
-			"activity"				"ACT_MP_GESTURE_VC_THUMBSUP"	
-		}
 
-		"item_9"
-		{
-			"concept"				"TLK_MVM_SNIPER_CALLOUT"
-			"menu_label"				"#Voice_Menu_Sniper"
-			"activity"				"ACT_MP_GESTURE_VC_THUMBSUP"
-		}
 	}
 
 
@@ -202,52 +149,13 @@
 			"activity"				"ACT_MP_GESTURE_VC_FISTPUMP"
 		}
 		
-
 		"item_3"
-		{
-			"concept"				"TLK_PLAYER_CHEERS"
-			"menu_label"				"#Voice_Menu_Cheers"
-			"activity"				"ACT_MP_GESTURE_VC_FISTPUMP"
-		}
-		
-		"item_4"
-		{
-			"concept"				"TLK_PLAYER_JEERS"	
-			"menu_label"				"#Voice_Menu_Jeers"
-		}
-		
-		"item_5"
-		{
-			"concept"				"TLK_PLAYER_POSITIVE"		
-			"menu_label"				"#Voice_Menu_Positive"
-		}
-		
-		"item_6"
-		{
-			"concept"				"TLK_PLAYER_NEGATIVE"		
-			"menu_label"				"#Voice_Menu_Negative"
-		}
-		
-		"item_7"
 		{
 			"concept"				"TLK_PLAYER_NICESHOT"		
 			"menu_label"				"#Voice_Menu_NiceShot"
 			"activity"				"ACT_MP_GESTURE_VC_THUMBSUP"
 		}
 		
-		"item_8"
-		{
-			"concept"				"TLK_PLAYER_GOODJOB"		
-			"menu_label"				"#Voice_Menu_GoodJob"
-			"activity"				"ACT_MP_GESTURE_VC_THUMBSUP"
-		}
-
-		"item_9"
-		{
-			"concept"				"TLK_MVM_SNIPER_CALLOUT"
-			"menu_label"				"#Voice_Menu_Sniper"
-			"activity"				"ACT_MP_GESTURE_VC_FINGERPOINT"
-		}
 	}
 
 
